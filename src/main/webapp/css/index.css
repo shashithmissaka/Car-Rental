@@ -1,0 +1,184 @@
+@charset "ISO-8859-1";
+.navbar {
+    background: linear-gradient(90deg, #232526, #414345);
+    padding: 15px 0;
+    transition: background 0.3s;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8b400 !important;
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link.active {
+    color: #f8b400 !important;
+    font-weight: bold;
+}
+
+.navbar .btn-outline-light {
+    border-color: white;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.navbar .btn-outline-light:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.navbar .btn-primary {
+    background: #f8b400;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.navbar .btn-primary:hover {
+    background: #d89e00;
+    transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #404040;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 65px 20px;
+            background: url('https://source.unsplash.com/1600x900/?car,rental') no-repeat center center/cover;
+            color: white;
+            position: relative;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-section h1, .hero-section p, .hero-section a {
+            position: relative;
+            z-index: 2;
+        }
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 50px; /* Add margin to move it down */
+    animation: fadeInDown 1.0s ease-in-out;
+}
+
+        .hero-section p {
+            font-size: 1.3rem;
+            margin: 20px 0;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+        .btn-custom {
+            margin: 10px;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            transition: transform 0.3s;
+        }
+        .btn-custom:hover {
+            transform: scale(1.1);
+        }
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+        .services {
+            padding: 80px 0;
+        }
+        .service-box {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .btn-primary {
+    background: #f8b400 !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #d89e00 !important;
+}
+   .moving-text {
+        background: #404040;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 5px 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .car-text {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-left: 100%;
+        animation: moveText 10s linear infinite;
+    }
+
+    .moving-car {
+        width: 100px; /* Adjust size */
+        height: auto;
+        border-radius: 10px;
+    }
+
+    @keyframes moveText {
+        from { transform: translateX(100%); }
+        to { transform: translateX(-100%); }
+    }
+.small-btn {
+    font-size: 18px; /* Adjust text size */
+    padding: 6px 15px; /* Adjust padding */
+}
+
+     

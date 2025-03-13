@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+         body {
+            background:linear-gradient(to right, #16222a, #3a6073);
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+        .card {
+            background: #fff;
+            color: #333;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+            max-width: 500px;
+            margin: auto;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        .card-header {
+            font-size: 1.6rem;
+            font-weight: bold;
+            background: #007bff;
+            color: #fff;
+        }
+        .summary-box {
+            font-size: 1.1rem;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f8f9fa;
+            color: #333;
+        }
+        .pricing-details p {
+            text-align: center;
+        }
+        .pricing-details p:hover {
+            background: #e9ecef;
+            transition: 0.3s ease;
+        }
+        .btn-custom {
+            background: #ff9800;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 12px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+            width: 100%;
+        }
+        .btn-custom:hover {
+            background: #e68900;
+            transform: scale(1.05);
+        }
+        .btn-danger-custom {
+            background: #dc3545;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 12px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+            width: 100%;
+        }
+        .btn-danger-custom:hover {
+            background: #bd2130;
+            transform: scale(1.05);
+        } 
